@@ -1,0 +1,290 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Feature: Fill in the contact form and send"
+      },
+      {
+        "line": 2,
+        "value": "#"
+      },
+      {
+        "line": 3,
+        "value": "#Scenario: Ensure you can fill in the contact"
+      },
+      {
+        "line": 4,
+        "value": "#Given I am on the zoo page"
+      },
+      {
+        "line": 5,
+        "value": "#When I click on the contact page"
+      },
+      {
+        "line": 6,
+        "value": "#And I fill in the form with the following details"
+      },
+      {
+        "line": 7,
+        "value": "#| Field    | Value          |"
+      },
+      {
+        "line": 8,
+        "value": "#| Name     | Moe            |"
+      },
+      {
+        "line": 9,
+        "value": "#| Address  | Barnet         |"
+      },
+      {
+        "line": 10,
+        "value": "#| Postcode | NW8            |"
+      },
+      {
+        "line": 11,
+        "value": "#| Email    | moe@sadoon.com |"
+      },
+      {
+        "line": 12,
+        "value": "#Then I check I am on the confirmation page"
+      }
+    ],
+    "line": 14,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Ensure page title is right",
+        "description": "",
+        "id": "check-i\u0027m-on-the-correct-page-titles;ensure-page-title-is-right;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5825519525,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on the zoo page",
+            "match": {
+              "location": "StepDefinitions.i_am_on_the_zoo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 757634245,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on adoption_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adoption_link",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.shouldClickOnLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47346839,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the title should be Adoption",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adoption",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.shouldBeRightTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 281657171,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I close the browser",
+            "match": {
+              "location": "StepDefinitions.browserShouldClose()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Ensure page title is right",
+        "description": "",
+        "id": "check-i\u0027m-on-the-correct-page-titles;ensure-page-title-is-right;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2651533399,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on the zoo page",
+            "match": {
+              "location": "StepDefinitions.i_am_on_the_zoo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5768078224,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on about_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "about_link",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.shouldClickOnLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5908964,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the title should be About Zoo",
+            "match": {
+              "arguments": [
+                {
+                  "val": "About Zoo",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.shouldBeRightTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116022756,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I close the browser",
+            "match": {
+              "location": "StepDefinitions.browserShouldClose()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Ensure page title is right",
+        "description": "",
+        "id": "check-i\u0027m-on-the-correct-page-titles;ensure-page-title-is-right;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2770599303,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on the zoo page",
+            "match": {
+              "location": "StepDefinitions.i_am_on_the_zoo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1125034002,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on contact_link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contact_link",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.shouldClickOnLink(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35773945,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the title should be Contact",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contact",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.shouldBeRightTitle(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 231559335,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I close the browser",
+            "match": {
+              "location": "StepDefinitions.browserShouldClose()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check I\u0027m on the correct page titles",
+    "description": "",
+    "id": "check-i\u0027m-on-the-correct-page-titles",
+    "keyword": "Feature",
+    "uri": "features/ContactConfirm.feature"
+  }
+]
